@@ -47,12 +47,11 @@ appearance:
 # Sidebar profile
 profile:
   # `email` will fallback to `hexo.config.email` if not specified
-  email:
+  email: abel@seek.cx
 
   # Avatar URL, email address will be used for gravatar(https://en.gravatar.com) avatar if not specified.
   # avatar:
-
-  bio: Awesome guy.
+  bio: How far, how long.
 
 # Sidebar menu
 menu:
@@ -65,35 +64,22 @@ menu:
 # Try to sort by changing the order of the keys
 sns:
   # `email` will fallback to `profile.email` if not specified
-  email:
+  email: abel@seek.cx
   # `feed` will fallback to `hexo.config.feed.path` if not specified
-  feed:
-  github:
-  twitter:
-  facebook:
-  instagram:
-  tumblr:
-  dribbble:
-  telegram:
-  youtube:
-  hangouts:
-  linkedin:
-  pinterest:
-  soundcloud:
-  myspace:
-  weibo:
-  qq:
+  github: https://github.com/seekcx
+  weibo: https://weibo.com/iue1994
+  qq: 5364979
 
 # Sidebar footer
 footer:
   # Default to `©year • author`, set to false to disable.
-  # copyright:
+  # copyright: Hundun
 
   # Set to false to hide Hexo link.
-  # powered: false
+  powered: false
 
   # Set to false to hide theme link.
-  # theme: false
+  theme: false
 
   # Custom text.
   # custom: Hosted by <a target="_blank" rel="noopener"
@@ -113,7 +99,7 @@ page:
   # reward: true
 
   # Display copyright notice, default to `false`
-  # copyright: true
+  copyright: true
 
 
 # Post
@@ -127,7 +113,7 @@ post:
   # reward: true
 
   # Display copyright notice, default to `false`
-  # copyright: true
+  copyright: true
 
 # Archive
 archive:
@@ -211,17 +197,17 @@ toc:
 # Reward
 reward:
   # Text which shows at the top.
-  # text: Buy me a cup of coffee ☕.
+  text: Buy me a cup of coffee ☕.
 
   # Payment Methods
   # qrcode, url and text must be set at least one
   # wechat, alipay, paypal and bitcoin has built-in icon and color themes,
   # use `name` to apply
-  # methods:
-  #   - name: paypal
-  #     qrcode: paypal.jpg
-  #     url: https://paypal.me/imelmore
-  #     text: This is a paypal payment link
+  methods:
+    - name: paypal
+      qrcode: paypal.jpg
+      url: https://paypal.me/imelmore
+      text: This is a paypal payment link
 
 # Copyright notice
 # It is possible to use front matter `copyright` to override this setting.
@@ -249,12 +235,12 @@ copyright:
 # Built-in support Disqus (https://disqus.com) and LiveRe (https://livere.com),
 # for other comment system, see plugins
 comments:
-  # disqus:
-  #   shortname: disqus_shortname
-  #   # Or you can set disqus script URL directly
-  #   script: //disqus_shortname.disqus.com/embed.js
-  #   # Autoload, default to `true`, set to `false` to display a button
-  #   autoload: false
+  disqus:
+    shortname: disqus_shortname
+    # Or you can set disqus script URL directly
+    script: //disqus_shortname.disqus.com/embed.js
+    # Autoload, default to `true`, set to `false` to display a button
+    autoload: true
 
   # livere:
   #   uid: livere_uid
